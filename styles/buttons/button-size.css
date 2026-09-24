@@ -1,0 +1,21 @@
+
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+/* Sizes */
+.btn-sm {
+  padding: 0.35rem 0.9rem;
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+.btn-lg {
+  padding: 0.85rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 14px;
+}

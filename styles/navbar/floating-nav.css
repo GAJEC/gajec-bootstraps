@@ -1,0 +1,57 @@
+.navbar-floating-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+.navbar-floating {
+  background: #14141a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  padding: 0.5rem 1.1rem 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+.navbar-floating .navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+.navbar-floating .brand-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+}
+.navbar-floating .navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+.navbar-floating .nav-link {
+  color: #e5e5e5;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar-floating .nav-link:hover {
+  color: #fff;
+}
+.navbar-floating .nav-dot {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.6rem;
+}
+.navbar-floating .btn-download {
+  background: #fff;
+  color: #111;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  text-underline-offset: 3px;
+  padding: 0.75rem 1.8rem;
+  border-radius: 999px;
+}

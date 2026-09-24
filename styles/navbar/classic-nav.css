@@ -1,0 +1,54 @@
+.navbar-classic {
+  background: #14251f;
+  padding: 1.1rem 0;
+}
+.navbar-classic .navbar-brand {
+  color: #fff;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.6rem;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+  margin-left: 1rem;
+}
+.navbar-classic .navbar-nav {
+  gap: 2rem;
+}
+.navbar-classic .nav-link {
+  color: #e8e8e6;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.navbar-classic .nav-link:hover {
+  color: #fff;
+}
+.navbar-classic .nav-link .caret {
+  font-size: 0.6rem;
+  margin-top: 1px;
+}
+.navbar-classic .navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.navbar-classic .btn-contact {
+  background: #cfcfc9;
+  color: #14251f;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  margin-right: 1rem;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+.navbar-classic .btn-contact:hover {
+  background: #fff;
+}

@@ -1,0 +1,57 @@
+/* BUTTONS CSS*/
+@import url(./buttons/button-size.css);
+@import url(./buttons/glass-button.css);
+@import url(./buttons/outlined-button.css);
+@import url(./buttons/gradient-button.css);
+@import url(./buttons/fill-sweep-button.css);
+@import url(./buttons/radial-fill-button.css);
+@import url(./buttons/liquid-button.css);
+
+/* NAVIGATION BAR*/
+@import url(./navbar/navbar-main.css);
+@import url(./navbar/classic-nav.css);
+@import url(./navbar/floating-nav.css);
+
+body {
+  background: linear-gradient(135deg, #1e1b4b, #4338ca);
+  min-height: 100vh;
+  padding: 4rem 0;
+  font-family: system-ui, sans-serif;
+}
+
+
+.section {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15); /* use rgba(0,0,0,0.1) on light bg */
+  margin: 3rem 0;
+}
+.component-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.component-title::before,
+.component-title::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.component-title:not(:empty)::before {
+  margin-right: 1rem;
+}
+.component-title:not(:empty)::after {
+  margin-left: 1rem;
+}

@@ -1,0 +1,23 @@
+.btn-gradient {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  border-radius: 1.5px solid #fff;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.55rem 1.4rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.45);
+  color: #fff;
+}
+.btn-gradient:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+}
+.btn-gradient:disabled {
+  background: #c7c7f0;
+  box-shadow: none;
+  cursor: not-allowed;
+}
