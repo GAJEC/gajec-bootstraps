@@ -87,8 +87,46 @@
         <a href="#" class="btn-download">Download</a>
     </nav>
     </div>
-
-    
+    <div>
+    <div class="section">Dark Pill Navigation Bar</div>        
+    <nav class="navbar-dark-pill">
+        <button class="logo-dot">◐</button>
+        <a class="nav-link active" href="#">Products ▾</a>
+        <a class="nav-link" href="#">Ecosystem</a>
+        <a class="nav-link" href="#">Company</a>
+        <a class="nav-link" href="#">Blog</a>
+    </nav>
     </div>
+    </div>
+    <!--DROPDOWN NAVIGATION BAR -->
+    <div class="section">Dropdown Burder Navigation Bar</div>        
+    <nav class="navbar-burger" id="burgerNav">
+    <div class="burger-row">
+        <a class="navbar-brand" href="#">GAJEC Corp</a>
+        <button class="burger-btn" id="burgerBtn" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
+    </div>
+    <div class="burger-menu">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <script>
+    const burgerBtn = document.getElementById('burgerBtn');
+    const burgerNav = document.getElementById('burgerNav');
+
+    burgerBtn.addEventListener('click', () => {
+        const isOpen = burgerNav.classList.toggle('open');
+        burgerBtn.setAttribute('aria-expanded', isOpen);
+    });
+    </script>
+    <!-- END OF DROPDOWN NAVBAR -->
   </body>
 </html>

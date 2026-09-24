@@ -1,0 +1,40 @@
+.navbar-dark-pill {
+  background: #1c1c1c;
+  border-radius: 999px;
+  padding: 0.5rem 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  margin: 1.5rem auto;
+}
+.navbar-dark-pill .logo-dot {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c8f542;
+  font-weight: 700;
+}
+.navbar-dark-pill .nav-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+}
+.navbar-dark-pill .nav-link:hover {
+  color: #c8f542;
+}
+.navbar-dark-pill .nav-link.active {
+  background: #c8f542;
+  color: #1c1c1c;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

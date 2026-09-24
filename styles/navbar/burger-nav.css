@@ -1,0 +1,85 @@
+.navbar-burger {
+  background: #14141a;
+  padding: 1.1rem 1.5rem;
+  position: relative;
+  border-radius: 16px;
+}
+.navbar-burger .burger-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-burger .navbar-brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.navbar-burger .burger-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.navbar-burger .burger-btn span {
+  width: 24px;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.navbar-burger.open .burger-btn span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.navbar-burger.open .burger-btn span:nth-child(2) {
+  opacity: 0;
+}
+.navbar-burger.open .burger-btn span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.navbar-burger .burger-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.35s ease,
+    opacity 0.3s ease;
+  opacity: 0;
+}
+.navbar-burger.open .burger-menu {
+  max-height: 300px;
+  opacity: 1;
+  margin-top: 1.25rem;
+}
+.navbar-burger .burger-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.navbar-burger .burger-menu a {
+  display: block;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  transition: color 0.2s ease;
+}
+.navbar-burger .burger-menu a:hover {
+  color: #fff;
+}

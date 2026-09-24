@@ -11,6 +11,8 @@
 @import url(./navbar/navbar-main.css);
 @import url(./navbar/classic-nav.css);
 @import url(./navbar/floating-nav.css);
+@import url(./navbar/dark-pill-nav.css);
+@import url(./navbar/burger-nav.css);
 
 body {
   background: linear-gradient(135deg, #1e1b4b, #4338ca);
@@ -18,7 +20,6 @@ body {
   padding: 4rem 0;
   font-family: system-ui, sans-serif;
 }
-
 
 .section {
   color: #fff;
