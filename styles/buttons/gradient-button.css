@@ -1,6 +1,6 @@
 .btn-gradient {
   background: linear-gradient(135deg, #6366f1, #8b5cf6);
-  border-radius: 1.5px solid #fff;
+  border: none; 
   color: #fff;
   border-radius: 8px;
   padding: 0.55rem 1.4rem;
